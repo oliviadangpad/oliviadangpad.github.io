@@ -1,0 +1,127 @@
+/*global.css already includes border-box, margin:0; */
+.header-background {
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url(../img/kevin-young.jpg); 
+    height: 50vh;
+    background-size: cover;
+    max-width: 2785px;
+    background-position: center center;
+}
+main {
+    padding: 1em 3em;
+}
+/*Style for title of each section*/
+.section-name {
+    font-size: 2em;
+    color: #005a9e;
+    text-align: center;
+    margin: 1em auto;
+}
+
+/*Skills section*/
+.col-50 {
+    max-width: 275px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.no-bullet {
+    display: block;
+    list-style: none;
+    padding:0;
+}
+.skills-title {
+    display: inline-block;
+}
+.skills-score {
+    color: #005a9e;
+    float: right;
+}
+.skills-container {
+    margin-bottom: 30px;
+}
+
+/*Experience*/
+.experience-container {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.experience-row {
+    margin-bottom: 3em;
+}
+.company-name {
+    margin-top:0;
+}
+
+
+.company-link a {
+    text-decoration: none;
+    color: #005a9e;
+}
+.company-link a:hover {
+    text-decoration: underline;
+    font-style: italic;
+    color: #005a9e;
+}
+
+/*Download resume*/
+.download-resume {
+    text-align: center;
+}
+.download-resume-text {
+    color: #005a9e;
+}
+
+/* For tablets */
+@media (min-width: 640px) {
+    main {
+        width: 80%;
+        margin: auto;
+    }
+    .col-50 {
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .experience-container {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/*For desktop*/
+@media (min-width: 1008px) {
+    main {
+        width: 60%;
+        margin: auto;
+    }
+    .skills-rows {
+        display: flex;
+        justify-content: space-between;
+    }
+    .col-50 {
+        width: 40%;
+        max-width: 300px;
+    }
+    .experience-container {
+        max-width: 100%;
+    }
+    .experience-row {
+        display: flex;
+        justify-content: space-between;
+    }
+    .col-30 {
+        width: 25%;
+
+    }
+    .col-70 {
+        width: 65%;
+    }
+    .col-70 ul {
+        padding-left: 14px;
+    }
+}

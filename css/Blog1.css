@@ -1,0 +1,68 @@
+/*global.css already includes border-box, margin:0; */
+
+/*customised header*/
+
+.header-background {
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url(../img/hallstatt.jpg); 
+    height: 50vh;
+    background-size: cover;
+    max-width: 2785px;
+    background-position: center center;
+}
+
+/*main*/
+.article1, .article2, .article3, .article4, .footer-container {
+    padding: 1em 3em 0;
+}
+.side-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 1em 0;
+}
+.article2-image {
+    width: 100%;
+    height: auto;
+    margin: 2em 0;
+}
+.article-title {
+    margin-top:0;
+}
+.article1 {
+    margin-top: 40px;
+}
+.article4 {
+    margin-bottom: 40px;
+}
+
+
+/* For tablets */
+@media (min-width: 640px) {
+    main {
+        width: 90%;
+        margin:auto;
+    }
+}
+
+
+/*For desktop*/
+@media (min-width: 1008px) {
+    .article1-main {
+        float: left;
+        width: 70%;
+    }
+    .side-bar {
+        float: right;
+        width: 30%;
+    }
+    main {
+        width: 70%;
+        margin:auto;
+    }
+}
+

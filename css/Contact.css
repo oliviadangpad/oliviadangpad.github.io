@@ -1,0 +1,75 @@
+/*global.css already includes border-box, margin:0; */
+.header-background {
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url(../img/vincent.jpg); 
+    height: 50vh;
+    background-size: cover;
+    max-width: 2785px;
+    background-position: center bottom;
+}
+main {
+    padding: 1em 2em;
+
+}
+
+.container {
+    margin: 60px 0;
+}
+.no-bullet {
+    list-style: none;
+    padding-left: 2px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 35px;
+}
+.no-bullet li{
+    margin-top: 20px;
+}
+.no-bullet a {
+    text-decoration: none;
+    color: #005a9e;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+.icon {
+    font-size: 40px;
+    float:left;
+    height: 30px;
+    width: 30px;
+}
+.quote {
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    max-width: 788px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* For tablets */
+@media (min-width: 640px) {
+    main {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+/*For desktop*/
+@media (min-width: 1008px) {
+    main {
+        width: 60%;
+        margin: auto;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .col-50 {
+        width: 50%;
+    }
+}
