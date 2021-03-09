@@ -43,7 +43,7 @@
     }
 .header-greetings h1 {
     font-size: 3em;
-    margin-block-start: 0.5em;
+    margin-block-start: 8px;
     margin-left: 20px;
     margin-right: 20px;
 }
