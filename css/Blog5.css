@@ -53,6 +53,7 @@
     .article1-main {
         float: left;
         width: 70%;
+        padding-right: 20px;
     }
     .side-bar {
         float: right;
