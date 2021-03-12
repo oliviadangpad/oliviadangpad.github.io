@@ -8,7 +8,6 @@
       url(../img/vincent.jpg); 
     height: 50vh;
     background-size: cover;
-    max-width: 2785px;
     background-position: center bottom;
 }
 main {

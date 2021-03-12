@@ -1,0 +1,43 @@
+/*global.css already includes border-box, margin:0; */
+/*customised header*/
+
+.header-background {
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url(../img/olivia.jpg); 
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.article-1, .article-2, .article-3, .footer-container {
+    padding: 1em 3em;
+}
+.section-name {
+    font-size: 2em;
+    color: #005a9e;
+    text-align: center;
+}
+.passion-img {
+    width: 100%;
+    height:auto;
+}
+
+/* For tablets */
+@media (min-width: 640px) {
+    .article-1, .article-2, .article-3 {
+        width: 80%;
+        margin: auto;
+    }
+}
+/*For desktop*/
+@media (min-width: 1008px) {
+    .article-1, .article-2, .article-3 {
+        width: 60%;
+        margin: auto;
+    }
+
+}
