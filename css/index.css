@@ -13,7 +13,7 @@
     background-position: center center;
 }
 
-.article, .footer-container {
+.article-1, .article-2, .article-3, .footer-container {
     padding: 1em 3em;
 }
 .section-name {
@@ -28,14 +28,14 @@
 
 /* For tablets */
 @media (min-width: 640px) {
-    .article {
+    .article-1, .article-2, .article-3 {
         width: 80%;
         margin: auto;
     }
 }
 /*For desktop*/
 @media (min-width: 1008px) {
-    .article {
+    .article-1, .article-2, .article-3 {
         width: 60%;
         margin: auto;
     }
