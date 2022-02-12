@@ -2,7 +2,6 @@
 
 ## Link to my website
 https://oliviadangpad.github.io/
-(Please mind that images may take quite long time to load)
 
 ## Description
 ### 1. Purpose: 
