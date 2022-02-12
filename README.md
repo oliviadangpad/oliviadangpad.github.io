@@ -1,7 +1,7 @@
 # Phuong Anh Dang's portfolio website
 
 ## Link to my website
-https://olivia-dang.github.io/
+https://oliviadangpad.github.io/
 (Please mind that images may take quite long time to load)
 
 ## Description
